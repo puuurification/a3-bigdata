@@ -118,6 +118,9 @@ df2_both_2016_with_tax = df2_both_2016_two[df2_both_2016_two['Year'] == '2016'].
 # Pergunta 4 - Top 3 com maior e menor taxa de aumento de índices de obesidade no período completo
 df2_both = df2[df2['Sex'] == 'Both sexes'].sort_values(by=['Country', 'Year'])
 df2_both['Tax_Obesity_Value (%)'] = df2_both.groupby('Country')['Obesity_Value (%)'].diff()
+df2_both.fillna(0, inplace=True)
 df2_both_with_tax = df2_both.sort_values(by=['Tax_Obesity_Value (%)'],  ascending=False)
+# df2_both_with_tax = df2_both.sort_values(by=['Country', 'Year'],  ascending=True)
 
 print(df2_both_with_tax)
+# print(df2_both_with_tax[df2_both_with_tax['Country']=='Sudan (former)'])
