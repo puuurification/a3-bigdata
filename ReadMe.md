@@ -1,8 +1,8 @@
 # A3 - BigData
 
-Links dos datasets sobre Obesidade e PIB per capita respectivamente:
-https://www.kaggle.com/amanarora/obesity-among-adults-by-country-19752016/
-https://www.kaggle.com/divyansh22/gdp-per-person-19012011?select=GDP.csv
+- Links dos datasets sobre Obesidade e PIB per capita respectivamente:
+	- https://www.kaggle.com/amanarora/obesity-among-adults-by-country-19752016/
+	- https://www.kaggle.com/divyansh22/gdp-per-person-19012011?select=GDP.csv
 
 ### Sobre Obesidade:
 - Filtre as informações corretas para apresentar os resultados de obesidade.
@@ -26,8 +26,6 @@ Aplique todas as técnicas possíveis.
 - Plot um gráfico
 	- Informe as regiões de maiores crescimentos de PIB. 
 		- Use gráficos para finalizar a resposta. Verifique de forma gráfica, se existe alguma relação entre esses dados:
-			- Quanto mais dinheiro, mais obeso?
-			- O resultado em 1 é o mesmo no Brasil? Qual a diferença entre Brasil, USA e Portugal?
 
 ### Geral
 Verifique de forma gráfica, se existe alguma relação entre esses dados:
