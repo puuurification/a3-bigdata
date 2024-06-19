@@ -15,8 +15,8 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
-df_gdp = pd.read_csv('Interpolated_GDP_pp.csv')
-df_obesity = pd.read_csv('obesity.csv')
+df_gdp = pd.read_csv('data/GDP_interpolated.csv')
+df_obesity = pd.read_csv('data/obesity-cleaned.csv')
 
 country_gdp = df_gdp.Country.unique().tolist()
 region_gdp = df_gdp.Region.unique().tolist()
