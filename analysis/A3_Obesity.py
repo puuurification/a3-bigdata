@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carrega o arquivo CSV
-df = pd.read_csv("Obesity/obseity-brute.csv", header=[0,3])
+df = pd.read_csv("data/obseity-brute.csv", header=[0,3])
 
 # Mudar o index do Dataframe pelo de Country
 newdf = df.set_index(("Unnamed: 0_level_0"))

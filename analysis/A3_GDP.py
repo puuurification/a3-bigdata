@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carrega o arquivo CSV
-df = pd.read_csv("GDP/GDP.xls")
+df = pd.read_csv("data/GDP.xls")
 
 # Limpa espaços vazios no nome das colunas
 df.columns = df.columns.str.strip()

@@ -23,4 +23,4 @@ with doc.create(pl.Section('Table')):
 
 
 # doc.generate_pdf('full', clean_tex=False)
-doc.generate_tex('full3')
+doc.generate_tex('report/tex/full3')
